@@ -1,3 +1,3 @@
 # shopper
 
-## Will update soon
+## Live url https://theshopper.vercel.app/
