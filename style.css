@@ -37,6 +37,7 @@ select {
   background: none;
   font-size: 14px;
   margin-right: 1rem;
+  font-weight: 600;
   border: none;
   outline: none;
 }
@@ -48,16 +49,12 @@ li {
 .header-list {
   font-size: 14px;
   font-weight: 600;
-  margin-left: -4rem;
 }
 
 .header-list li {
-  margin-right: 1.5rem;
+  margin-right: 2rem;
 }
 
-.social{
-  margin-left: -9rem;
-}
 .social li {
   margin-left: 0.8rem;
   color: #808080;
@@ -74,21 +71,15 @@ li {
   font-size: 28px;
   font-weight: bold;
 }
-nav{
-  display: flex;
-  justify-content: space-between;
-  margin-left: 10rem;
-}
+
 nav li {
-  text-align: center;
   margin: 1rem 0.5rem;
   text-transform: capitalize;
   font-weight: 600;
 }
 
 .icons {
-  justify-content: baseline;
-  margin: 0rem 14rem;
+  margin: 0 -1.5rem;
 }
 
 .icons span {
@@ -267,17 +258,8 @@ hr {
 .bag-col {
   width: 350px;
   height: 400px;
-  overflow: hidden;
+  background-size: cover;
   position: absolute;
-}
-.bag-col img {
-  width: 350px;
-  height: 400px;
-  transition: 0.5s;
-}
-.bag-col:hover img {
-  transform: translateX(-10px);
-  transition: 0.5s;
 }
 
 .bag {
@@ -306,10 +288,6 @@ hr {
   font-weight: 900;
   font-size: 18px;
 }
-.bi-arrow-right-short:hover{
-  margin-left: 5px;
-  transition: 0.5s;
-}
 
 .tshirt-col {
   margin-left: -13rem;
@@ -318,15 +296,7 @@ hr {
   background-size: cover;
   position: absolute;
 }
-.tshirt-col img{
-  width: 810px;
-  height: 400px;
-}
 
-.tshirt-col:hover img{
-  transform: translateX(-10px);
-  transition: 0.5s;
-}
 .tshirt {
   top: 80rem;
   left: 37rem;
@@ -382,21 +352,14 @@ strong {
   display: grid;
   grid-template-columns: 6fr 6fr;
 }
-.dress-col{
-  width: 750px;
-  height: 400px;
-  overflow: hidden;
-  position: absolute;
-}
-.dress-col img{
+
+.dress-col {
   width: 750px;
   height: 400px;
   background-size: cover;
+  position: absolute;
 }
-.dress-col:hover img{
-  transform: translateX(-10px);
-  transition: 0.5s;
-}
+
 .dress {
   top: 107rem;
   left: 15rem;
@@ -419,23 +382,14 @@ strong {
   position: absolute;
 }
 
-.sweatshirt-col{
-  left: 60rem;
-  width: 390px;
-  height: 400px;
-}
-
-.sweatshirt-col img {
+.sweatshirt-col {
   left: 60rem;
   width: 390px;
   height: 400px;
   position: absolute;
   background-size: cover;
 }
-.sweatshirt-col:hover img{
-  transform: translateX(-10px);
-  transition: 0.5s;
-}
+
 .sweatshirt {
   top: 107rem;
   left: 67rem;
@@ -459,7 +413,7 @@ strong {
 }
 
 .category {
-  margin-top: -20rem;
+  margin-top: 30rem;
   text-align: center;
 }
 
@@ -513,41 +467,13 @@ strong {
   height: 300px;
   background-size: cover;
 }
-.card-icons span {
-  background-color: #fff;
-  color:#000;
-  font-size: 20px;
-  margin-right: 20px;
-  padding: 5px 10px;
-  border-radius: 50%;
-  visibility: hidden;
-  margin-top: -90px;
-
-}
-.cards:hover .card-icons span{
-  transition: 0.5s;
-  visibility: visible;
-  cursor: pointer;
-}
-
-.bi-eye:hover{
-  background-color: #ff6f61;
-}
-.bi-heart:hover{
-  background-color: #ff6f61;
-}
-.bi-cart:hover{
-  background-color: #ff6f61;
-}
 
 .product-name {
   font-size: 14px;
   line-height: 21px;
   color: #767676;
 }
-.card-info{
-  position: sticky;
-}
+
 .info {
   font-size: 16px;
   font-weight: 500;
@@ -824,7 +750,7 @@ strong {
 .footer-brand {
   display: flex;
   justify-content: start;
-  margin: 3rem 1rem 3rem 11rem;
+  margin: 3rem 1rem 0 11rem;
 }
 
 .brand-card {
@@ -884,10 +810,6 @@ input::placeholder {
 }
 
 /* Footer Section */
-
-.footer-social{
-  margin-left: -0.5rem;
-}
 
 .footer-top {
   display: grid;
@@ -954,3 +876,10 @@ input::placeholder {
 
 
 
+
+
+
+
+
+        
+      
